@@ -344,6 +344,9 @@ client.on('message', message => {
 
 });
 
+client.on('ready', () => {
+    client.channels.find(c => c.id === '490246655858442240').join();
+});
 
 
 
