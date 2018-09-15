@@ -344,9 +344,6 @@ client.on('message', message => {
 
 });
 
-epic.on('ready',async () => {
-  epic.channels.find(ch => ch.id === "490246655858442240" && ch.type === '1voice').join();
-});
 
 
 
