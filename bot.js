@@ -345,13 +345,11 @@ client.on('message', message => {
 });
 
 epic.on('ready',async () => {
-  epic.channels.find(ch => ch.id === "اي دي الروم الصوتية" && ch.type === 'voice').join();
+  epic.channels.find(ch => ch.id === "490246655858442240" && ch.type === '1voice').join();
 });
 
 
 
-client.on('ready', () => {
-    client.channels.find(c => c.id === '490246655858442240').join();
-});
+
 
 client.login(process.env.BOT_TOKEN);
